@@ -50,7 +50,7 @@ export const Contacts = () => {
         <button type="submit">add contact</button>
       </form>
       <div className={style.contact}>
-        <h2>Our contacts</h2>
+        <h2 className={style.contactHeader}>Our contacts</h2>
         <ul>
           {contactsUser?.map(value => {
             return (
