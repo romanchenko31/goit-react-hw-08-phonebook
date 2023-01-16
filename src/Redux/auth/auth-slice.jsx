@@ -32,6 +32,7 @@ export const authSlice = createSlice({
         state.user = { name: null, email: null };
         state.token = null;
         state.isLoggedIn = false;
+        state.isRegistretion = false;
       });
   },
 });

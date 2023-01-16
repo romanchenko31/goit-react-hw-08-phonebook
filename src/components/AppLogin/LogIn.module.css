@@ -1,0 +1,13 @@
+form {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 265px;
+  background: #ffffff;
+    border-radius: 13px;
+}
+
+label {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}

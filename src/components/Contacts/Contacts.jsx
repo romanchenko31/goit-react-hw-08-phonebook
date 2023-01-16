@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import contactsOperation from 'Redux/contacts/contacts-operation';
 import contactsSelector from 'Redux/contacts/contacts-selector';
+import style from './Contacts.module.css';
 
 export const Contacts = () => {
   const [name, setName] = useState('');
@@ -48,14 +49,14 @@ export const Contacts = () => {
         </label>
         <button type="submit">add contact</button>
       </form>
-      <div>
+      <div className={style.contact}>
         <h2>Our contacts</h2>
         <ul>
           {contactsUser?.map(value => {
             return (
-              <li key={value.id}>
-                <span>{value.name}</span>
-                <span>{value.number}</span>
+              <li className={style.li} key={value.id}>
+                <span>{value.name} - </span>
+                <span>{value.number} </span>
                 <button type="button" onClick={() => deleteContact(value.id)}>
                   delete
                 </button>
