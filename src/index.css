@@ -7,9 +7,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f44336;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+form button{
+      background: #f44336;
+      color: #fff;
+        
+}
+button{
+  background: #fff;
+padding: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }

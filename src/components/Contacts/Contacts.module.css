@@ -1,0 +1,14 @@
+li{
+    color: #fff;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.contactHeader{
+    color: #fff;
+}
